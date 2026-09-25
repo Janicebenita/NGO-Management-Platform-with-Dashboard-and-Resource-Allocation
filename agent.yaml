@@ -1,6 +1,15 @@
 spec_version: "0.1.0"
-name: ngo-project-review-assistant
-version: "0.1.0"
-description: >-
-  Helps authorized NGO staff review project records, timelines, and resource
-  information, then drafts evidence-based follow-up priorities for human review.
+name: ngo-project-operations-agent
+version: 1.0.0
+description: An NGO project-operations agent that reviews project records, timelines, status, donors, regions, and resource information to support monitoring and reporting.
+author: Janice Benita F
+runtime:
+  max_turns: 20
+  timeout: 120
+tags:
+  - ngo-management
+  - project-monitoring
+  - resource-allocation
+  - social-impact
+  - reporting
+
